@@ -7,18 +7,17 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.7; }
+  line-height: 1.7;
+  color: #777; }
 
 .logo {
   height: 3.25rem; }
 
-.user-nav__icon {
-  height: 2.25rem;
-  width: 2.25rem; }
-
-.user-nav__user-photo {
-  height: 3.75rem;
-  border-radius: 50%; }
+.header {
+  height: 95vh;
+  background-image: url(../img/header1.jpg);
+  background-size: cover;
+  background-position: top; }
 
 .container {
   max-width: 120rem;

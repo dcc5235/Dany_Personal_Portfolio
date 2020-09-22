@@ -2,14 +2,9 @@
   height: 3.25rem;
 }
 
-.user-nav {
-  &__icon {
-    height: 2.25rem;
-    width: 2.25rem;
-  }
-
-  &__user-photo {
-    height: 3.75rem;
-    border-radius: 50%;
-  }
+.header {
+  height: 95vh;
+  background-image: url(../img/header1.jpg);
+  background-size: cover;
+  background-position: top;
 }
