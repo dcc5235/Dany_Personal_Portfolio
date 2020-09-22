@@ -1,0 +1,15 @@
+.logo {
+  height: 3.25rem;
+}
+
+.user-nav {
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  &__user-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+  }
+}

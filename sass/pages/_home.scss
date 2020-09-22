@@ -1,0 +1,15 @@
+.container {
+  max-width: 120rem;
+  margin: 0rem auto;
+  font-size: 1rem;
+}
+
+.header {
+  height: 7rem;
+  background-color: $color-primary-2;
+  border-bottom: $color-primary-1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
