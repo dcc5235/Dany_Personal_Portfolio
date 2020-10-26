@@ -28,3 +28,12 @@
   border: 2px solid $color-grey-2;
   box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.btn--pink {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: none
+  background-color: $color-pink-1;
+}
