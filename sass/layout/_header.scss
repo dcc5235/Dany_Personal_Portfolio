@@ -1,7 +1,5 @@
-// HEADER IMAGE & TEXT
+// HEADER IMAGE & TEXT!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .header {
-  background-color: #e7a142;
-
   &__container {
     max-height: 100%;
     // clip-path: polygon(0 0, 157% 0, 66% 96%, 0 88%);
@@ -24,7 +22,7 @@
 
       opacity: 0.9;
       border-radius: 50%;
-      border: 2.5px solid #fff;
+      border: 2.5px solid $color-primary-6;
       box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2),
         0 6px 1.25rem 0 rgba(0, 0, 0, 0.19);
     }
@@ -33,6 +31,7 @@
       position: absolute;
       top: 14rem;
       right: 1rem;
+      color: $color-primary-6;
     }
 
     &--text {
@@ -41,7 +40,7 @@
       font-size: 13px;
       font-weight: 500;
       text-align: right;
-      color: #555;
+      color: $color-grey-2;
 
       position: absolute;
       top: 16rem;
@@ -49,13 +48,8 @@
     }
   }
 }
-// .header {
-//   height: 95vh;
-//   background-image: url(../img/header1.jpg);
-//   background-size: cover;
-//   background-position: top;
-// }
 
+// NAVBAR!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // .nav {
 //   font-size: 0.8rem;
 //   font-weight: 200;
