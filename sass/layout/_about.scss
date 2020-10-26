@@ -7,6 +7,8 @@
 
   &__title {
     @include title;
+
+    margin-bottom: 12px;
   }
   &__text {
     font-size: 0.8rem;
