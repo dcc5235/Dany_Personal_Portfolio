@@ -6,12 +6,57 @@
 body {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.7;
-  color: #777; }
+  font-size: 1rem;
+  line-height: 1.4;
+  background-color: #e7a142;
+  color: #000; }
+
+main {
+  margin-top: 24rem; }
+
+.text--pink {
+  color: #ebd4d4; }
+
+.link--cert {
+  text-decoration: none;
+  color: #000; }
+  .link--cert:hover {
+    color: #555;
+    background-color: #ebd4d4; }
+
+.btn {
+  margin: 0.7rem 0 0.3rem 0;
+  width: 30%;
+  padding: 9px 6px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #555;
+  box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem; }
+  .about__title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #835858;
+    margin-bottom: 12px; }
+  .about__text {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0.2rem 0; }
 
 .header__container {
-  max-height: 100%; }
+  max-height: 100%;
+  clip-path: polygon(0 0, 164% 0, 66% 418%, 0 397%); }
   .header__container--img-1 {
     width: 100%;
     position: relative; }
@@ -24,15 +69,17 @@ body {
     position: absolute;
     bottom: 39rem;
     right: 1rem;
+    transform: translate(-6%, -8%);
     opacity: 0.9;
     border-radius: 50%;
     border: 2.5px solid #fff;
     box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 1.25rem 0 rgba(0, 0, 0, 0.19); }
   .header__container--name {
+    color: #fff;
+    font-size: 1.7rem;
     position: absolute;
     top: 14rem;
-    right: 1rem;
-    color: #fff; }
+    right: 1rem; }
   .header__container--text {
     margin-top: 10px;
     width: 84%;
