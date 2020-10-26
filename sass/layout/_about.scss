@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 1rem;
+  // clip-path: polygon(0 0, 157% 0, 66% 96%, 0 88%);
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #835858;
+
+    margin-bottom: 12px;
+  }
+  &__text {
+    font-size: 0.8rem;
+    font-weight: 300;
+
+    margin: 0.2rem 0;
+  }
+}
