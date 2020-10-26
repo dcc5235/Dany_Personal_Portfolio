@@ -22,7 +22,7 @@ img {
 
 .link--cert {
   text-decoration: none;
-  color: #000; }
+  color: #637373; }
   .link--cert:hover {
     color: #555;
     background-color: #ebd4d4; }
@@ -41,6 +41,12 @@ img {
   border: 2px solid #555;
   box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+.btn--pink {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
 .about {
   display: flex;
   justify-content: center;
@@ -56,6 +62,27 @@ img {
     font-size: 0.8rem;
     font-weight: 300;
     margin: 0.2rem 0; }
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1rem 0 1rem;
+  background-color: #fff0f0; }
+  .blog__container {
+    margin-top: 1.5rem; }
+  .blog__title {
+    @incl ude title; }
+  .blog__name {
+    margin: 1rem 0 0.6rem 0;
+    font-size: 0.9rem; }
+  .blog__date {
+    margin: 0rem 0 1rem 0;
+    font-size: 0.6rem;
+    font-weight: 300; }
+  .blog__img {
+    border: 2.3px solid #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .header__container {
   max-height: 100%;
@@ -111,7 +138,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 1rem 2.2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   background-color: #fff;
   clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%); }
   .projects__title {
@@ -122,10 +149,18 @@ img {
     margin-top: 1.5rem; }
   .projects__link {
     margin-top: 12px;
-    margin-bottom: 0.4rem;
-    font-size: 0.9rem;
+    margin-bottom: 6px;
+    font-size: 14px;
     color: #988f86;
     text-decoration: none; }
   .projects__lang {
-    margin: 0.4rem 0 0.9rem 0;
-    font-size: 0.5rem; }
+    margin: 7px 0 14px 0;
+    font-size: 8px; }
+  .projects__description {
+    margin: 1rem 0;
+    font-size: 10px;
+    font-weight: 300; }
+  .projects__border {
+    margin-top: 1.7rem;
+    border-top: 1px dotted #000;
+    padding-top: 1.5rem; }
