@@ -19,6 +19,33 @@ body {
   background-size: cover;
   background-position: top; }
 
+.nav {
+  font-size: 0.8rem;
+  font-weight: 200;
+  background-color: #637373;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 9px;
+  display: flex;
+  justify-content: center; }
+  .nav > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  .nav > *:hover {
+    background-color: var(#ff9a76); }
+  .nav__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none; }
+    .nav__container--list {
+      padding: 5px 0; }
+      .nav__container--list-2 {
+        flex: 1; }
+
 .container {
   max-width: 120rem;
   margin: 0rem auto;
