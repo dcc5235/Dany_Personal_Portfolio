@@ -1,0 +1,30 @@
+.text--pink {
+  color: $color-pink-1;
+}
+
+.link--cert {
+  text-decoration: none;
+  color: $color-primary-7;
+
+  &:hover {
+    color: $color-grey-2;
+    background-color: $color-pink-1;
+  }
+}
+
+.btn {
+  margin: 0.7rem 0 0.3rem 0;
+  width: 30%;
+  padding: 9px 6px;
+
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $color-grey-2;
+  color: $color-primary-6;
+  cursor: pointer;
+
+  border-radius: 8px;
+  border: 2px solid $color-grey-2;
+  box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

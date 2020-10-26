@@ -2,7 +2,7 @@
 .header {
   &__container {
     max-height: 100%;
-    // clip-path: polygon(0 0, 157% 0, 66% 96%, 0 88%);
+    clip-path: polygon(0 0, 164% 0, 66% 418%, 0 397%);
 
     &--img-1 {
       width: 100%;
@@ -19,6 +19,7 @@
       position: absolute;
       bottom: 39rem;
       right: 1rem;
+      transform: translate(-6%, -8%);
 
       opacity: 0.9;
       border-radius: 50%;
@@ -28,10 +29,12 @@
     }
 
     &--name {
+      color: $color-primary-6;
+      font-size: 1.7rem;
+
       position: absolute;
       top: 14rem;
       right: 1rem;
-      color: $color-primary-6;
     }
 
     &--text {
