@@ -4,47 +4,46 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
   color: #777; }
 
-.logo {
-  height: 3.25rem; }
-
 .header {
-  height: 95vh;
-  background-image: url(../img/header1.jpg);
-  background-size: cover;
-  background-position: top; }
-
-.nav {
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: #637373;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 9px;
-  display: flex;
-  justify-content: center; }
-  .nav > * {
-    padding: 0 2rem;
-    cursor: pointer;
-    height: 100%;
-    display: flex;
-    align-items: center; }
-  .nav > *:hover {
-    background-color: var(#ff9a76); }
-  .nav__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none; }
-    .nav__container--list {
-      padding: 5px 0; }
-      .nav__container--list-2 {
-        flex: 1; }
+  background-color: #e7a142; }
+  .header__container {
+    max-height: 100%; }
+    .header__container--img-1 {
+      width: 100%;
+      position: relative; }
+    .header__container--img-2 {
+      display: flex;
+      align-content: flex-end;
+      margin: 4px 0;
+      width: 35%;
+      height: auto;
+      position: absolute;
+      bottom: 39rem;
+      right: 1rem;
+      opacity: 0.9;
+      border-radius: 50%;
+      border: 2.5px solid #fff;
+      box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 1.25rem 0 rgba(0, 0, 0, 0.19); }
+    .header__container--name {
+      position: absolute;
+      top: 14rem;
+      right: 1rem; }
+    .header__container--text {
+      margin-top: 10px;
+      width: 84%;
+      font-size: 13px;
+      font-weight: 500;
+      text-align: right;
+      color: #555;
+      position: absolute;
+      top: 16rem;
+      right: 1rem; }
 
 .container {
   max-width: 120rem;

@@ -1,49 +1,96 @@
-.logo {
-  height: 3.25rem;
-}
-
+// HEADER IMAGE & TEXT
 .header {
-  height: 95vh;
-  background-image: url(../img/header1.jpg);
-  background-size: cover;
-  background-position: top;
-}
-
-.nav {
-  font-size: 0.8rem;
-  font-weight: 200;
-  background-color: #637373;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 9px;
-
-  display: flex;
-  justify-content: center;
-
-  & > * {
-    padding: 0 2rem;
-    cursor: pointer;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-
-  & > *:hover {
-    background-color: var($color-primary-1);
-  }
+  background-color: #e7a142;
 
   &__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-height: 100%;
+    // clip-path: polygon(0 0, 157% 0, 66% 96%, 0 88%);
 
-    list-style: none;
+    &--img-1 {
+      width: 100%;
+      position: relative;
+    }
 
-    &--list {
-      padding: 5px 0;
-      &-2 {
-        flex: 1;
-      }
+    &--img-2 {
+      display: flex;
+      align-content: flex-end;
+      margin: 4px 0;
+      width: 35%;
+      height: auto;
+
+      position: absolute;
+      bottom: 39rem;
+      right: 1rem;
+
+      opacity: 0.9;
+      border-radius: 50%;
+      border: 2.5px solid #fff;
+      box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2),
+        0 6px 1.25rem 0 rgba(0, 0, 0, 0.19);
+    }
+
+    &--name {
+      position: absolute;
+      top: 14rem;
+      right: 1rem;
+    }
+
+    &--text {
+      margin-top: 10px;
+      width: 84%;
+      font-size: 13px;
+      font-weight: 500;
+      text-align: right;
+      color: #555;
+
+      position: absolute;
+      top: 16rem;
+      right: 1rem;
     }
   }
 }
+// .header {
+//   height: 95vh;
+//   background-image: url(../img/header1.jpg);
+//   background-size: cover;
+//   background-position: top;
+// }
+
+// .nav {
+//   font-size: 0.8rem;
+//   font-weight: 200;
+//   background-color: #637373;
+//   color: #fff;
+//   text-transform: uppercase;
+//   padding: 9px;
+
+//   display: flex;
+//   justify-content: center;
+
+//   & > * {
+//     padding: 0 2rem;
+//     cursor: pointer;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//   }
+
+//   & > *:hover {
+//     background-color: var($color-primary-1);
+//   }
+
+//   &__container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     list-style: none;
+
+//     &--list {
+//       padding: 5px 0;
+//       &-2 {
+//         flex: 1;
+//       }
+//     }
+//   }
+// }
