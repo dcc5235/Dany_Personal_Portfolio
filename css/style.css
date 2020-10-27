@@ -106,7 +106,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.6rem 1rem 2.5rem 1rem;
+  padding: 1.6rem 2rem 2.5rem 2rem;
   background-color: #fff0f0; }
   .blog__container {
     margin-top: 1.5rem; }
@@ -132,7 +132,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 1.6rem 1rem 1rem 1rem;
+  padding: 1.6rem 2rem;
   margin-top: 0rem;
   background-color: #81b6b0;
   color: #fff0f0; }
@@ -181,7 +181,7 @@ img {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   color: #835858; }
@@ -250,7 +250,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
   background-color: #fff;
   clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%); }
   .projects__title {
