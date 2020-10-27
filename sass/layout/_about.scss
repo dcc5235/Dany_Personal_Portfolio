@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
 
-  margin: 1rem;
+  margin: 2rem;
 
   &__links {
     &--social {
@@ -23,7 +23,7 @@
   }
 
   &__text {
-    font-size: $font-size-med;
+    font-size: $font-size-sm;
     font-weight: 300;
 
     margin: 1rem 0;
