@@ -274,12 +274,20 @@ img {
   .projects__lang {
     margin: 7px 0 14px 0;
     font-size: 1rem; }
+  .projects__border {
+    margin-top: 1.7rem;
+    border-top: 1px dotted #000;
+    padding-top: 1.5rem; }
+  .projects__img {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out; }
   .projects__description {
     margin: 1rem 0;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5rem; }
-  .projects__border {
-    margin-top: 1.7rem;
-    border-top: 1px dotted #000;
-    padding-top: 1.5rem; }
+
+.img--appear {
+  opacity: 1;
+  transform: translateY(0); }
