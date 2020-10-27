@@ -18,7 +18,12 @@ img {
   width: 100%; }
 
 .text--pink {
-  color: #ebd4d4; }
+  text-decoration: none;
+  color: #ebd4d4;
+  font-weight: 400; }
+  .text--pink:hover {
+    color: #555;
+    background-color: #ebd4d4; }
 
 .link--cert {
   text-decoration: none;
@@ -28,7 +33,8 @@ img {
     background-color: #ebd4d4; }
 
 .btn {
-  margin: 0.7rem 0 0.3rem 0;
+  display: inline-block;
+  margin: 1rem 0 1.3rem 0;
   width: 30%;
   padding: 9px 6px;
   font-size: 10px;
@@ -39,7 +45,15 @@ img {
   cursor: pointer;
   border-radius: 8px;
   border: 2px solid #555;
-  box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s; }
+  .btn:hover {
+    background-color: #835858;
+    color: #fff0f0;
+    border: 2px solid #835858; }
+  .btn--grey {
+    text-decoration: none;
+    color: #fff; }
 
 .btn--pink {
   margin-top: 1rem;
@@ -54,6 +68,13 @@ img {
   justify-content: center;
   flex-direction: column;
   margin: 1rem; }
+  .about__links--social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 1rem 0 0; }
   .about__title {
     font-size: 1.3rem;
     font-weight: 600;
@@ -64,6 +85,13 @@ img {
     font-size: 0.8rem;
     font-weight: 300;
     margin: 0.2rem 0; }
+
+.fab {
+  font-size: 1.5rem;
+  color: #ebd4d4;
+  transition: 0.5s; }
+  .fab:hover {
+    color: #637373; }
 
 .blog {
   display: flex;
@@ -141,10 +169,14 @@ img {
   justify-content: center;
   padding: 1rem;
   font-size: 0.5rem;
-  color: #fff0f0;
   font-weight: 600;
   text-transform: uppercase;
   color: #835858; }
+
+.header__links {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .header__container {
   max-height: 100%;
@@ -159,7 +191,7 @@ img {
     width: 35%;
     height: auto;
     position: absolute;
-    bottom: 39rem;
+    top: 7rem;
     right: 1rem;
     transform: translate(-6%, -8%);
     border-radius: 50%;
@@ -169,8 +201,8 @@ img {
     color: #fff;
     font-size: 1.7rem;
     position: absolute;
-    top: 14rem;
-    right: 1rem; }
+    top: 16rem;
+    right: 2rem; }
   .header__container--text {
     margin-top: 10px;
     width: 84%;
@@ -179,8 +211,8 @@ img {
     text-align: right;
     color: #555;
     position: absolute;
-    top: 16rem;
-    right: 1rem; }
+    top: 18rem;
+    right: 2rem; }
 
 .container {
   max-width: 120rem;
