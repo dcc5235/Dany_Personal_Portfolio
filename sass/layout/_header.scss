@@ -1,5 +1,11 @@
 // HEADER IMAGE & TEXT!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .header {
+  &__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__container {
     max-height: 100%;
     clip-path: polygon(0 0, 164% 0, 66% 418%, 0 397%);
@@ -32,8 +38,8 @@
       font-size: 1.7rem;
 
       position: absolute;
-      top: 14rem;
-      right: 1rem;
+      top: 16rem;
+      right: 2rem;
     }
 
     &--text {
@@ -45,8 +51,8 @@
       color: $color-grey-2;
 
       position: absolute;
-      top: 16rem;
-      right: 1rem;
+      top: 18rem;
+      right: 2rem;
     }
   }
 }
