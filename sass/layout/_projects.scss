@@ -35,16 +35,27 @@
     font-size: $font-size-sm;
   }
 
+  &__border {
+    margin-top: 1.7rem;
+    border-top: 1px dotted $color-primary-7;
+    padding-top: 1.5rem;
+  }
+
+  &__img {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+  }
+
   &__description {
     margin: 1rem 0;
     font-size: $font-size-sm;
     font-weight: 300;
     line-height: 1.5rem;
   }
+}
 
-  &__border {
-    margin-top: 1.7rem;
-    border-top: 1px dotted $color-primary-7;
-    padding-top: 1.5rem;
-  }
+.img--appear {
+  opacity: 1;
+  transform: translateY(0);
 }
