@@ -19,21 +19,20 @@ img {
 
 .text--pink {
   text-decoration: none;
-  color: #ebd4d4;
+  color: #555;
   font-weight: 600; }
   .text--pink:hover {
     color: #555;
     background-color: #ebd4d4; }
 
 .link--cert {
-  text-decoration: none;
-  color: #637373; }
+  color: #555; }
   .link--cert:hover {
     color: #555;
     background-color: #ebd4d4; }
 
 .btn {
-  display: inline-block;
+  display: block;
   margin: 1rem 0 1.3rem 0;
   width: 45%;
   height: 3.5rem;
@@ -55,10 +54,14 @@ img {
   .btn--grey {
     text-decoration: none;
     color: #fff; }
+  .btn--decoration {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; }
 
 .btn--pink {
   margin-top: 1rem;
-  font-size: 0.7rem;
+  font-size: 1rem;
   text-transform: uppercase;
   text-decoration: underline;
   border: none;
@@ -66,7 +69,7 @@ img {
   transition: 0.5s; }
   .btn--pink:hover {
     color: #637373;
-    font-size: 0.9rem; }
+    font-size: 1.4rem; }
 
 .about {
   display: flex;
@@ -89,6 +92,7 @@ img {
   .about__text {
     font-size: 1rem;
     font-weight: 300;
+    line-height: 1.5rem;
     margin: 1rem 0; }
 
 .fab {
@@ -113,12 +117,12 @@ img {
     color: #835858; }
   .blog__name {
     margin: 1rem 0 0.6rem 0;
-    font-size: 0.9rem; }
+    font-size: 1.4rem; }
   .blog__date {
     display: flex;
     flex-direction: column;
     margin: 0rem 0 1rem 0;
-    font-size: 0.6rem;
+    font-size: 1rem;
     font-weight: 300; }
   .blog__img {
     border: 2.3px solid #fff;
@@ -139,14 +143,14 @@ img {
     color: #835858; }
   .contact__text {
     padding: 8px 0;
-    font-size: 0.8rem; }
+    font-size: 1rem; }
   .contact__greeting {
     color: #637373;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 600; }
   .contact__message {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.6;
     color: #fff0f0;
     padding-bottom: 1rem; }
@@ -163,9 +167,10 @@ img {
       font-size: 1rem; }
     .contact__form--input {
       width: 94%;
+      height: 2rem;
       margin: 0.3rem 0.5rem; }
     .contact__form--textarea {
-      height: 5rem;
+      height: 6rem;
       resize: none; }
     .contact__form--submit {
       margin-left: 0.6rem; }
@@ -258,7 +263,7 @@ img {
   .projects__link {
     margin-top: 12px;
     margin-bottom: 6px;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #988f86;
     text-decoration: none;
     transition: 0.5s; }
@@ -267,11 +272,12 @@ img {
       color: #555; }
   .projects__lang {
     margin: 7px 0 14px 0;
-    font-size: 8px; }
+    font-size: 1rem; }
   .projects__description {
     margin: 1rem 0;
-    font-size: 10px;
-    font-weight: 300; }
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem; }
   .projects__border {
     margin-top: 1.7rem;
     border-top: 1px dotted #000;
