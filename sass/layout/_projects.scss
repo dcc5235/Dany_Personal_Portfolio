@@ -20,6 +20,12 @@
     font-size: 14px;
     color: $font-primary-1;
     text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: $color-primary-5;
+      color: $color-grey-2;
+    }
   }
 
   &__lang {
