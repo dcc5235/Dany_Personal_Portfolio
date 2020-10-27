@@ -82,7 +82,7 @@ img {
     align-items: center;
     list-style: none;
     text-decoration: none;
-    margin: 0 1rem 0 0; }
+    margin: 0 1rem; }
   .about__title {
     font-size: 2rem;
     font-weight: 600;
@@ -264,6 +264,7 @@ img {
     margin-top: 12px;
     margin-bottom: 6px;
     font-size: 1.4rem;
+    font-weight: 500;
     color: #988f86;
     text-decoration: none;
     transition: 0.5s; }
