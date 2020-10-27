@@ -35,7 +35,7 @@
 
     &--name {
       color: $color-primary-6;
-      font-size: 2.4rem;
+      font-size: $font-size-lg;
 
       position: absolute;
       top: 12rem;
@@ -46,7 +46,7 @@
     &--text {
       margin-top: 10px;
       width: 84%;
-      font-size: 1.4rem;
+      font-size: $font-size-med;
       font-weight: 500;
       text-align: right;
       color: $color-grey-2;
@@ -61,7 +61,7 @@
     }
 
     &--work {
-      font-size: 1rem;
+      font-size: $font-size-sm;
     }
   }
 }
