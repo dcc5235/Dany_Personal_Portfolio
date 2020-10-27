@@ -18,7 +18,7 @@
   &__link {
     margin-top: 12px;
     margin-bottom: 6px;
-    font-size: 14px;
+    font-size: $font-size-med;
     color: $font-primary-1;
     text-decoration: none;
     transition: 0.5s;
@@ -31,13 +31,14 @@
 
   &__lang {
     margin: 7px 0 14px 0;
-    font-size: 8px;
+    font-size: $font-size-sm;
   }
 
   &__description {
     margin: 1rem 0;
-    font-size: 10px;
+    font-size: $font-size-sm;
     font-weight: 300;
+    line-height: 1.5rem;
   }
 
   &__border {

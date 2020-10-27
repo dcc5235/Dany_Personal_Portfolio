@@ -4,3 +4,9 @@
   text-transform: uppercase;
   color: #835858;
 }
+
+@mixin links {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-primary-6;
+}
