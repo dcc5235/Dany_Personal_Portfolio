@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
 
-  padding: 1rem 1rem 2.5rem 1rem;
+  padding: 1.6rem 1rem 2.5rem 1rem;
   background-color: $color-pink-2;
 
   &__container {
@@ -20,6 +20,8 @@
   }
 
   &__date {
+    display: flex;
+    flex-direction: column;
     margin: 0rem 0 1rem 0;
     font-size: 0.6rem;
     font-weight: 300;
