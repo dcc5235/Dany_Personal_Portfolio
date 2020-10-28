@@ -17,6 +17,10 @@ main {
 img {
   width: 100%; }
 
+::selection {
+  background-color: #ebd4d4;
+  color: #555; }
+
 .text--pink {
   text-decoration: none;
   color: #555;
@@ -288,6 +292,8 @@ img {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5rem; }
+  .projects__visual {
+    box-shadow: 0 8px 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .img--appear {
   opacity: 1;
