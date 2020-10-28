@@ -20,3 +20,8 @@ main {
 img {
   width: 100%;
 }
+
+::selection {
+  background-color: $color-pink-1;
+  color: $color-grey-2;
+}
