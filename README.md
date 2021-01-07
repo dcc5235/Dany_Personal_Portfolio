@@ -2,6 +2,6 @@
 
 ## work in progress
 
-HTML5, CSS3, Sass, jQuery
+HTML5, CSS3, Sass, JavaScript 
 
-domain name: danychheang.com
+
